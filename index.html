@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Whac an Orc</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title textShadow">Welkom bij Whac an Orc</h1>
+        <div class="container">
+            <button class="button textShadow" id="start">Klik om te spelen</button>
+        </div>
+    </header>
+    <div class="grid">
+        <div class="board">
+            <div class="square" id="0"></div>
+            <div class="square" id="1"></div>
+            <div class="square" id="2"></div>
+            <div class="square" id="3"></div>
+            <div class="square" id="4"></div>
+            <div class="square" id="5"></div>
+            <div class="square" id="6"></div>
+            <div class="square" id="7"></div>
+            <div class="square" id="8"></div>
+            <div class="square" id="9"></div>
+            <div class="square" id="10"></div>
+            <div class="square" id="11"></div>
+            <div class="square" id="12"></div>
+            <div class="square" id="13"></div>
+            <div class="square" id="14"></div>
+            <div class="square" id="15"></div>
+        </div>
+        <div class="scoreBoard">
+            <div class="justify-center">
+                <h1 class="inLine-flex">Resterende tijd:</h1>
+                <h1 class="timer inLine-flex textShadow" id="time-left">30</h1>
+            </div>
+            <div class="justify-center">
+                <h2 class="inLine-flex">Jouw punten:</h2>
+                <h2 class="inLine-flex bold textShadow" id="score">0</h2>
+            </div>
+            <div class="justify-center">
+                <h2 class="inLine-flex">Hoogste score ooit:</h2>
+                <h2 class="inLine-flex bold textShadow" id="high-score">0</h2>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
